@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Kamień, papier, nożyce</title>
+	<link rel="stylesheet" href="vendor/bootstrap-grid.css">
+	<script src="https://kit.fontawesome.com/d4ce48014d.js" crossorigin="anonymous"></script>        
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="navigation">
+		<div class="container">
+			<div class="reset">
+				<button id="button-reset" class="button-reset"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+			</div>
+		</div>
+	</nav>
+	<header>
+		<div class="container">
+			<h2>Kliknij i zagraj w</h2>
+			<h1><span class="rock-name">Kamień</span>, <span class="paper-name">papier</span>, <span class="scissors-name">nożyce</span></h1>
+		</div>
+	</header>
+	<section class="game">
+		<div class="container">
+			<div id="buttons">
+				<button class="rock" id="button-rock"><i class="fa-solid fa-hand-fist"></i></button>
+				<button class="paper" id="button-paper"><i class="fa-solid fa-hand"></i></button>
+				<button class="scissors" id="button-scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+			</div>
+		</div>
+	</section>
+	<div class="container resultmessages">
+		<div class ="messages" id="messages"></div>
+		<div class="results"id="results"></div>
+	</div>
+	<div class="saper">
+	<script src="js/functions.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
